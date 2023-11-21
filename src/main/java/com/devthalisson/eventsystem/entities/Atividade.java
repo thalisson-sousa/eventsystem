@@ -69,6 +69,30 @@ public class Atividade {
         this.preco = preco;
     }
 
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
+    public Set<Participante> getParticipantes() {
+        return participantes;
+    }
+
+    public void setParticipantes(Set<Participante> participantes) {
+        this.participantes = participantes;
+    }
+
+    public List<Bloco> getBlocos() {
+        return blocos;
+    }
+
+    public void setBlocos(List<Bloco> blocos) {
+        this.blocos = blocos;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
